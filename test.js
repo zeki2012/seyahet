@@ -1,4 +1,4 @@
-let budget = +prompt('Sizin nece manatiniz var');
+let budget = +prompt('Sizin nece € -nuz var');
 let money = budget;
 
 let days = 0;
@@ -19,6 +19,6 @@ while (money > 0) {
 
 }
 
-let netice = `Siz ${budget} eur ile ${days} gun seyahet ede bilersiniz`
+let netice = `Siz ${budget} € ile ${days} gun seyahet ede bilersiniz`
 
-document.getElementById('Xerc').innerHTML = netice;
+document.getElementById('xerc').innerHTML = netice;
