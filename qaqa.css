@@ -1,0 +1,115 @@
+/* Genel stiller /
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/ Header stilleri /
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+/ Section stilleri /
+section {
+    padding: 20px;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+section ul {
+    margin: 0;
+    padding: 0;
+}
+
+/ Footer stilleri */
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.sekil {
+    background-size: cover;
+    background-position: center;
+    height: 370px;
+    width: 370px;
+    position: relative;
+    cursor: pointer;
+}
+
+.sekil1 {
+    background-image: url(piz.png);
+}
+
+.sekil2 {
+    background-image: url(homa.webp);
+}
+
+.sekil3 {
+    background-image: url(seh.jpg);
+}
+
+.sekil4 {
+    background-image: url(lol.webp);
+}
+
+.sekil5 {
+    background-image: url(od.webp);
+}
+
+.sekil6 {
+    background-image: url(fas.jpg);
+}
+
+
+.sekil {
+    opacity:70%;
+}
+.sekil:hover {
+    transform: scale(1.1);
+    opacity:100%;
+}
+.btn1 {
+    color: #090909;
+    padding: 0.6em 1.9em;
+    margin: 20px;
+    font-size: 16px;
+    border-radius: 0.3em;
+    background: #000000;
+    border: 1px solid #ffffff;
+    transition: all .3s;
+    box-shadow: 3px 3px 12px #c5c5c5,
+               -1px -1px 1px #bababa;
+  }
+
+  .btn1:hover {
+    border: 1px solid rgb(116, 116, 116);
+  }
+
+  .btn1:active {
+    box-shadow: 4px 4px 12px #c5c5c5,
+               -4px -4px 12px #5d5c5c;
+  }
